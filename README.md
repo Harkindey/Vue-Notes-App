@@ -1,4 +1,5 @@
 # NOTES-APP
+![Load Page](/images/load.png) ![View Page](/images/edit.png)
 
 > A Vue.js project
 
