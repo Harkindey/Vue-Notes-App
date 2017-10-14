@@ -37,7 +37,9 @@ export default {
       this.$router.push('/');
     },
     editNote() {
-      // Logic to edit a note
+      const notes = this.$localStorage.get('notes');
+      this.note = notes.find(note => note.id === this.id);
+      this.$router.push(`/edit/${this.id}`);
     },
     deleteNote() {
       if (confirm('Delete note?')) {
