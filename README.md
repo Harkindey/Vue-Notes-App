@@ -1,5 +1,4 @@
 # NOTES-APP
-![Load Page](/images/load.png) ![View Page](/images/edit.png)
 
 > A Vue.js project
 
@@ -37,3 +36,5 @@ npm run build --report
 ### Installation
 
 Make sure [git](https://git-scm.com/book/id/v2/Getting-Started-Installing-Git) is installed.
+![Load Page](/images/load.png) ![View Page](/images/edit.png)
+
