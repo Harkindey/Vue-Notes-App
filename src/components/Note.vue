@@ -37,7 +37,7 @@ export default {
       this.$router.push('/');
     },
     editNote() {
-      // Logic to edit a note
+      this.$router.push(`/edit/${this.id}`);
     },
     deleteNote() {
       if (confirm('Delete note?')) {
